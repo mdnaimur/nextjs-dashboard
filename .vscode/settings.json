@@ -1,0 +1,88 @@
+{
+  // Editor Appearance
+  "editor.fontSize": 20,
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 28, // Adds more breathing space between lines
+  "editor.letterSpacing": 0.5, // Improves readability
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#6A9955" // Makes comments more distinguishable with a soft green
+        }
+      }
+    ]
+  },
+
+  // Cursor Customization
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 3, // Makes the cursor easier to spot
+
+  // Code Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+
+  // ESLint Status
+  "eslint.alwaysShowStatus": true,
+
+  // Sidebar Layout
+  "workbench.sideBar.location": "right",
+
+  // Terminal Appearance
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "500", // Slightly bolder text for better readability
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+
+  // Theme & Icons
+  "workbench.colorTheme": "Night Owl",
+  "workbench.iconTheme": "vscode-icons",
+
+  // Terminal Customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+
+  // Additional Editor Features
+  "editor.smoothScrolling": true, // Adds smoothness when scrolling
+  "editor.renderWhitespace": "all", // Makes spaces, tabs, and newlines visible for better code structure
+  "editor.bracketPairColorization.enabled": true, // Colors matching brackets for easier debugging
+  "editor.guides.bracketPairs": "active" // Highlights active brackets only
+}
